@@ -118,3 +118,130 @@ footer p {
     margin: 0;
     color: #fff;
 }
+
+/* Caller ID phone navigation guide */
+main {
+    padding-bottom: 100px; /* keep content clear of the fixed footer */
+}
+
+.intro-note {
+    background: rgba(0, 0, 0, 0.35);
+    border-left: 4px solid #f05bca;
+    padding: 15px 20px;
+    border-radius: 6px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.ivr-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.ivr-step {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px 25px;
+    width: 100%;
+    max-width: 560px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ivr-step.final {
+    border: 2px solid #4caf50;
+}
+
+.ivr-step .press {
+    display: inline-block;
+    background: #021657;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    font-size: 0.95em;
+    letter-spacing: 0.5px;
+}
+
+.ivr-step h3 {
+    margin: 0 0 8px;
+    font-size: 1.25em;
+    color: #fff;
+}
+
+.ivr-step p {
+    font-size: 1em;
+    margin: 0;
+    text-align: left;
+    color: #f0f0f0;
+}
+
+.ivr-step ul {
+    margin-top: 10px;
+}
+
+.ivr-step ul li {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: none;
+    font-size: 0.95em;
+}
+
+.ivr-arrow {
+    font-size: 1.8em;
+    line-height: 1;
+    margin: 6px 0;
+    color: #f05bca;
+}
+
+.method-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.method-card {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    flex: 1 1 260px;
+    max-width: 320px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.method-card h3 {
+    margin-top: 0;
+    font-size: 1.15em;
+}
+
+.code-pill {
+    display: inline-block;
+    background: #021657;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 1.05em;
+    margin: 4px 0;
+}
+
+.faq-item {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 1.15em;
+    margin-bottom: 6px;
+    color: #f05bca;
+}
+
+.faq-item p {
+    font-size: 1em;
+    text-align: left;
+    color: #f0f0f0;
+}
